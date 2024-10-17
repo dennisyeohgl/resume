@@ -26,8 +26,10 @@ h2 {
 }
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%; /* Make the left column narrower and the right column wider */
     margin-top: 3em;
+    gap: 2em; /* Add some space between the two columns */
+    margin-right: 2em;
 }
 header {
     text-align: center;

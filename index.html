@@ -177,22 +177,21 @@
 												<b>PEPPOL Access Point</b>
 												<ul>
 													<li>Developed a dashboard for monitoring and maintaining PEPPOL documents and participants
-          
-														
 														<ul>
 															<!-- <li>Utilized React and Javascript for the client-side web pages, and ASP.NET Core with C# for the server-side controllers and services.</li> -->
-															<li>Built client-side components using React and JavaScript, built server-side components using ASP.NET Core with C#</li>
-															<li>Separated maintenance and monitoring capabilities using role-based access controls.</li>
-															<li>Admin functionalities included participant management via Integration API and user access control.</li>
-															<li>Provided monitoring for e-invoice documents linked to authorized participants.</li>
+															<li>Built client-side components using React and JavaScript; implemented server-side logic with ASP.NET Core and C#.</li>
+															<li>Implemented role-based access controls to separate monitoring and maintenance functionalities.</li>
+															<li>Designed admin features, including participant management via Integration API and user access control.</li>
+															<li>Enabled monitoring of e-invoice documents associated with authorized participants.</li>
+															<li>Added API key management capabilities.</li>
 														</ul>
 													</li>
-													<li>Created background services for inbound and outbound documents processing
-          
-														
+													<li>Created background services for document persistence and processing (inbound and outbound)
 														<ul>
 															<li>Built server-side components using ASP.NET Core with C#</li>
-															<li>Saved processed documents to PostgreSQL database for monitoring via the dashboard.</li>
+															<li>Configured background services to handle document validation, transmission and persistence.</li>
+															<li>Integrated a document validation system utilizing Schematron files to ensure compliance with Peppol standards.</li>
+															<li>Configured data persistence for processed documents in a PostgreSQL database, enabling monitoring through the dashboard interface.</li>
 														</ul>
 													</li>
 												</ul>
@@ -240,10 +239,11 @@
 											<!-- Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights -->
 										</p>
 										<ul>
-											<li>Acquired necessary certificates and completed accreditation with OpenPeppol.</li>
+											<li>Acquired necessary certificates and completed accreditation process with OpenPeppol.</li>
 											<li>Configured hosting servers to meet OpenPeppol specifications.</li>
 											<li>Deployed Oxalis distribution access point on Ubuntu server with Apache Tomcat.</li>
-											<li>Set up KoSIT Validator for e-invoice document validation prior to sending outbound documents.</li>
+											<li>Deployed and configured relevant background services to support the Peppol access point.</li>
+											<li>Configured site security, including SSL, to comply with OpenPeppol requirements.</li>
 											<!-- <li>Create API for sending e-invoicing documents utilizing oxalis-standalone component????</li> -->
 										</ul>
 									</section>
